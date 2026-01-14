@@ -121,7 +121,7 @@ header{
  
 }
 .social-container{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: 128px 240px;
     align-items: center;
     text-align: center;
