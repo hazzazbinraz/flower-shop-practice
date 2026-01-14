@@ -137,8 +137,10 @@ header{
    margin-top: 24px;
    
 }
-.latest-container{
+/* background image not working */
+.latest-deals{
     background: url("../flower-shop-assignment-main/Rectangle\ 9.png");
+    background-color: aqua;
 }
 .latest-deals{
     margin: 128px 240px;
@@ -166,4 +168,29 @@ header{
     border-radius: 8px;
     background-color: #FFFFFF;
     border: none;
+}
+footer{
+    background-color: #111010;
+    padding: 128px 650px;
+}
+.footer-container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-container h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #FFFFFF;
+
+}
+.footer-container .p1{
+margin-top: 24px;
+margin-bottom: 32px;
+font-size: 18px;
+color: #FFFFFF;
+}
+.footer-container .p2{
+ font-size: 16px;
+ color: rgba(255, 255, 255, 0.4);
 }
