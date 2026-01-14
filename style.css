@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared color */
+.p-color {
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.p-color2{
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #272727;
+}
+.p-color2 a{
+    text-decoration: none;
+    color: #272727;
+    
+
+}
+.btn1{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 43px;
+    color: #FFFFFF;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    text-decoration: none;
+}
+.btn1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* main style */
+header{
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.heading{
+    margin-left: 240px;
+    max-width: 708px;
+
+}
+.heading h1{
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.featured-container{
+    /* border: 2px solid aqua; */
+    margin: 250px 221px 121px 240px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.headline h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.flowers{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 24px;
+    /* background-color: aquamarine; */
+    margin-bottom: 48px;
+}
+.flowers p{
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.img1 img{
+ 
+}
+.hot-deals{
+    
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 86px 170px;
+}
+.hot-deals .click{
+    max-width: 370px;
+  
+}
+.discount{
+   background-color: rgba(229, 84, 115, 0.1);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} .discount-container{
+    margin: 100px 400px;
+    display: flex;
+    align-items: center;
+    gap: 185px;
+}
+.deals{
+    text-align: center;
+}
+.deals h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.social{
+ 
+}
+.social-container{
+    border: 1px solid blue;
+    margin: 128px 240px;
+    align-items: center;
+    text-align: center;
+}
+.social-container h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+.social-img {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 24px;
+   
+}
+.latest-container{
+    background: url("../flower-shop-assignment-main/Rectangle\ 9.png");
+}
+.latest-deals{
+    margin: 128px 240px;
+    padding: 122px 287px;
+    justify-content: center;
+}
+.latest-deals h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+.latest-container{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.input-con{
+    
+    margin-top: 48px;
+    display: flex;
+    gap: 5px;
+    max-width: 100%;
+}
+.input-con input{
+    padding: 20px 500px 20px 20px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    border: none;
+}
